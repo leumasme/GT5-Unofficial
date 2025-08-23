@@ -320,7 +320,7 @@ public class GTPostLoad {
         massFabFakeRecipes.add(MTEMassfabricator.uuaRecipe);
 
         MTERockBreaker.addRockBreakerRecipe(
-            b -> b.recipeDescription("IT'S FREE! Place Lava on Side")
+            b -> b.recipeDescription("IT'S FREE! Place Lava on Top")
                 .sideBlocks(Blocks.water)
                 .topBlock(Blocks.lava)
                 .outputItem(new ItemStack(Blocks.stone, 1))
